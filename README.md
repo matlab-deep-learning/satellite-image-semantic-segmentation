@@ -15,76 +15,31 @@ This example walks through the process of:
 4. Building and training, with validation, a semantic segmentation network on blockedImages
 5. Testing on out of sample data that was not used in the training set.
 
-![Semantic segementation screenshot of raw and labelled data]("semanticSegmentationRawAndLabelled.png")
+![Semantic segementation screenshot of raw and labelled data](semanticSegmentationRawAndLabelled.png)
 
-If you mention any trademarks, all MathWorks® (including MATLAB®)  and 3rd party trademarks need to be correctly marked the first time they are prominently used in each file (including the README.MD).  
-<!--- Markdown supports the following HTML entities: © - &copy;  ® - &reg;  ™ - &trade;
-More information about Trademarks can be found internally within the Checklist for Community Contributions and Supportfiles Confluence page--->
-
-Please remember to delete all template related text that you are not using within your README.md
-
-<!--- Please remember to delete all template related text that you are not using within your README.md ---> 
+## Data Acknowledgement
+The satellite data used in this example is based on SPOT 6/7 Imagery and is reused from the [New South Wales Spatial Data Portal](https://portal.spatial.nsw.gov.au/portal/home/item.html?id=95c0763e95df425abc75ad52e2b35c94) and is licensed under a Creative Commons Attribution 3.0 License with additional acknowledgement to Airbus (&copy; CNES (2020) DISTRIBUTION AIRBUS DS) as the original provider of the data to the NSW Government.
 
 ## Setup 
-To Run:
-1. Step 1
-2. Step 2
+To run open and execute buildAndTrainNet.mlx.
 
-Additional information about set up
+If you have moved the two data folders:
+
+1. dataRaw
+2. dataLabels
+
+Outside the MATLAB Project folder you will have to change lines 7 and 11,
+respectively to point to the new data folder locations.
 
 ### MathWorks Products (http://www.mathworks.com)
 
-Requires MATLAB release R#### or newer
-- [Product1](https://url-to-product1)
-- [Product1](https://url-to-product1)
-
-### 3rd Party Products:
-3p:
-- [Product1](https://url-to-product1)
-- [Product2](https://url-to-product2)
-
-## Installation (Optional)
-Installation instuctions
-
-Before proceeding, ensure that the below products are installed:  
-* [Product1](https://url-to-product1) 
-
-Please see the [documentation](Documentation/Installation.md) for detailed installation instructions. 
-<!--- Make sure you have a Installation.md document in the Documentation folder if you are to follow this formatting.  You can choose your own folder formatting if you prefer --->
-
-1. Step 1
-2. Step 2
-
-## Deployment Steps (Optional) 
-
-To view instructions for deploying <insert repo name>, select a MATLAB release: 
-<!--- This is for Repos that utillize Releases in GitHub --->
-
-| Release |
-| ------- |
-| [R2020a](releases/R2020a/README.md) |
-| [R2019b](releases/R2019b/README.md) |
-| [R2019a\_and\_older](releases/R2019a_and_older/README.md) |
-
-## Getting Started 
-Information about Getting Started
-<!--- List or link to any relevent Documentation to help the user Get Started --->
-
-## Examples
-To learn how to use this in testing workflows, see [Examples](/examples/). 
-<!--- Make sure you have a repo set up correctly if you are to follow this formatting --->
+Requires MATLAB release R2021b or newer
+- [Computer Vision Toolbox&trade;](https://au.mathworks.com/products/computer-vision.html)
+- [Deep Learning Toolbox&trade;](https://au.mathworks.com/products/deep-learning.html)
+- [Image Processing Toolbox&trade;](https://au.mathworks.com/products/image.html)
 
 ## License
-<!--- Make sure you have a License.txt within your Repo --->
-LICENSE NAME © 2021 The MathWorks, Inc.
-
-or
-
 The license for <insert repo name> is available in the [LICENSE.TXT](LICENSE.TXT) file in this GitHub repository.
-
-or
-
-The license is available in the License file within this repository
 
 Include any other License information here, including third-party content using separate license agreements 
 
@@ -92,11 +47,3 @@ Include any other License information here, including third-party content using 
 [MATLAB Central](https://www.mathworks.com/matlabcentral)
 
 Copyright 2021 The MathWorks, Inc.
-
-<!--- Do not forget to the add the SECURITY.md to this repo --->
-<!--- Add Topics #Topics to your Repo such as #MATLAB  --->
-
-<!--- This is my comment --->
-
-<!-- Include any Trademarks if this is the first time mentioning trademarked products (For Example:  MATLAB&reg; Simulink&reg; Trademark&trade; Simulink Test&#8482;) --> 
-
