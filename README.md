@@ -1,7 +1,6 @@
 # Semantic Segmentation of Large Satellite Images 
 
-[![View <File Exchange Title> on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/####-file-exchange-title)  
-<!-- Add this icon to the README if this repo also appears on File Exchange via the "Connect to GitHub" feature --> 
+[![View satellite-image-semantic-segmentation on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://au.mathworks.com/matlabcentral/fileexchange/110745-satellite-image-semantic-segmentation)
 
 Semantic segmentation of large multi-resolution satellite imagery tiles is ideally
 suited to blockedImage workflows - where only part of the image is loaded for
@@ -40,8 +39,6 @@ Requires MATLAB release R2021b or newer
 
 ## License
 The license for <insert repo name> is available in the [LICENSE.TXT](LICENSE.TXT) file in this GitHub repository.
-
-Include any other License information here, including third-party content using separate license agreements 
 
 ## Community Support
 [MATLAB Central](https://www.mathworks.com/matlabcentral)
