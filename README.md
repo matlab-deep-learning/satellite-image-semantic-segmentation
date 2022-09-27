@@ -38,7 +38,7 @@ Requires MATLAB release R2021b or newer
 - [Image Processing Toolbox&trade;](https://au.mathworks.com/products/image.html)
 
 ## License
-The license for <insert repo name> is available in the [LICENSE.TXT](LICENSE.TXT) file in this GitHub repository.
+The license is available in the LICENSE.TXT file in this GitHub repository.
 
 ## Community Support
 [MATLAB Central](https://www.mathworks.com/matlabcentral)
