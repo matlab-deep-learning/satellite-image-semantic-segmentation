@@ -1,5 +1,5 @@
 # Semantic Segmentation of Large Satellite Images 
-
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=matlab-deep-learning/satellite-image-semantic-segmentation&project=SemanticSegmentationSatellite.prj)
 [![View satellite-image-semantic-segmentation on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://au.mathworks.com/matlabcentral/fileexchange/110745-satellite-image-semantic-segmentation)
 
 Semantic segmentation of large multi-resolution satellite imagery tiles is ideally
@@ -8,7 +8,7 @@ training at one time.  This is a much faster workflow as the size of the tiles
 can be tuned to fit within GPU RAM.
 
 This example walks through the process of:
-1. Importing a pre-labelled ground truth object
+1. Importing a pre-labelled groundMATLAB Worksheet examples of Algo.7z truth object
 2. Modifying the paths of the ground truth to match this training machine
 3. Converting the large satellite images to blockedImageDatastores
 4. Building and training, with validation, a semantic segmentation network on blockedImages
@@ -43,4 +43,4 @@ The license for <insert repo name> is available in the [LICENSE.TXT](LICENSE.TXT
 ## Community Support
 [MATLAB Central](https://www.mathworks.com/matlabcentral)
 
-Copyright 2021 The MathWorks, Inc.
+Copyright 2021-2023 The MathWorks, Inc.
